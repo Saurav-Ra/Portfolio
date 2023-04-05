@@ -97,9 +97,37 @@ nav ul li button img.dark{
     font-size: 20px;
     padding: 0 10px;
 }
+.icons ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.fa-facebook{
+    color: #1877F2;
+}
+.fa-twitter{
+    color: #1DA1F2;
+}
+.fa-instagram{
+    color: #fb3958;
+}
+.fa-linkedin{
+    color: #0e76a8;
+}
+.fa-github{
+    color: #333;
+}
+.dark .fa-github{
+    color: #fff;
+}
 @media (max-width:768px) {
 
     .main-content{
         margin: 5% 10%;
+    }
+}
+@media (width<768px) {
+
+    .logo{
+        display: none;
     }
 }
